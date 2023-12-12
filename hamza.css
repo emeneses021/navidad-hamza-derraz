@@ -2,9 +2,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 10vh;
   margin: 0;
+  transform: scale(2.5); 
 }
+
 
 .tree {
   position: relative;

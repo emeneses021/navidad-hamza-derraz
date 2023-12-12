@@ -158,6 +158,11 @@
     width: 20px;
     height: 50px;
     background-color: orange;
+    animation: moverse linear infinite;
+}
+
+#hugo @keyframe moverse {
+
 }
 
 #hugo .piess2 {
