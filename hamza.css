@@ -2,13 +2,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   margin: 0;
 }
 
 
 .tree {
   position: relative;
-  transform: scale(5.5); 
+  transform: scale(2.6); 
+  top: -300px;
+  right: 100px;
+>>>>>>> fe8e4aca4b640ccf7229b3abe3d755d40400a3c4
 
 }
 
