@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #db8686;
+}
+
+#meneses .snowman {
+    text-align: center;
+}
+
+#meneses .circle {
+    position: relative; 
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    background-color: #fcfbfb;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: solid black;
+}
+
+#meneses .circle1 {
+    position: relative; 
+    top: 110px;
+    width: 250px;
+    height: 150px;
+    background-color: #fcfbfb;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: solid black;
+}
+
+#meneses .circle2 {
+    text-align: center;
+    position: relative; 
+    top: -190px;
+    width: 220px;
+    height: 150px;
+    background-color: #fcfbfb;
+    border-radius: 50%;
+    margin: 10px auto;
+    border: solid black;
+}
+
+#meneses .top-hat {
+    position: relative; 
+    top: -510px;
+    width: 90px;
+    height: 30px;
+    background-color: #000;
+    margin: 5px auto;
+}
+
+#meneses .hat-band {
+    position: relative; 
+    top: -519px;
+    width: 110px;
+    height: 15px;
+    background-color: #000;
+    margin: 5px auto;
+}
+
+
+
+#meneses .scarf1 {
+    position: relative; 
+    top: -405px;
+    width: 120px;
+    height: 15px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+
+#meneses .carrot-nose {
+    position: relative; 
+    top: -520px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid orangered;
+    margin: 5px auto;
+}
+
+#meneses .eyes {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#meneses .eye {
+    position: relative; 
+    top: -540px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+
+}
+
+#meneses .mouth {
+    position: relative; 
+    top: -520px;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #000;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 5px auto;
+}
+
+#meneses .punto {
+    position: relative; 
+    top: -498px;
+    left: 118px;
+    width: 15px;
+    height: 15px;
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+
+#meneses .punto1 {
+    position: relative; 
+    top: -440px;
+    left: 118px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+#meneses .brazo {
+    position: relative; 
+    top: -485px;
+    left: 230px;
+    width: 105px;
+    height: 10px;
+    background-color: #000;
+
+}
+
+#meneses .brazo1 {
+    position: relative; 
+    top: -485px;
+    right: 85px;
+    width: 105px;
+    height: 10px;
+    background-color: #000;
+
+
+}
+
+
+#meneses .punto2 {
+    position: relative; 
+    top: -490px;
+    left: 118px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+}
