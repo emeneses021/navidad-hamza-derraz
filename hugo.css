@@ -8,7 +8,19 @@
     position: relative;
     height: 940px;
     width: 620px;
+    animation-name: salto;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
 }
+
+@keyframes salto {
+    0%   {bottom:0px; left:0px;}
+    25%  {bottom:100px; left:0px;}
+    50%  {bottom:200px; left:0px;}
+    75%  {bottom:100px; left:0px;}
+    100% {bottom:0px; left:0px;}
+  }
 
 #hugo .cabeza {
     position: relative;
@@ -94,7 +106,14 @@
     height: 70px;
     background-color: rgb(246, 34, 34);
     border-radius: 50%;
+    animation-name: boca;
+    animation-duration: 4s;
 }
+
+@keyframes boca {
+    from {background-color: rgb(246, 34, 34);}
+    to {background-color: yellow;}
+  }
 
 #hugo .cuerpo {
     position: relative;
@@ -157,11 +176,6 @@
     width: 20px;
     height: 50px;
     background-color: orange;
-    animation: moverse linear infinite;
-}
-
-#hugo @keyframe moverse {
-
 }
 
 #hugo .piess2 {
